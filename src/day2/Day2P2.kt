@@ -14,7 +14,7 @@ class Day2P2 {
         println(sum)
     }
 
-    private fun findDivisionResult(input: String): Int {
+    private fun findDivisionResult(input: String) : Int {
         var value = 0
         val inputList : List<String> = input.split("\\s+".toRegex())
         for (i in 0 until inputList.size) {
