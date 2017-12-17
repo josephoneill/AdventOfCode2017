@@ -17,7 +17,6 @@ class Day1 {
     fun findSum(input: String, start: Char) {
         var streak = 0
         var currChar: Char = start
-        println(input.length)
         for (i in 1..input.length + 1) {
             if (currChar == input[i % input.length]) {
                 streak++
