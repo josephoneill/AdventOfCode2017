@@ -2,7 +2,7 @@ package day4
 
 import java.io.File
 
-/*
+/**
  * Created by Joseph on 12/17/2017
  */
 class Day4 {
